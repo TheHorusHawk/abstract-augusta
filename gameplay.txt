@@ -1,0 +1,33 @@
+﻿Players: 3
+
+Play on a square grid. 
+
+Define winning squares.
+
+Decide who goes first, second and third.
+
+Each player,in turn order, does the following:
+
+	Move one or two spaces around your current gravitational field, or freely if you're not in a 		gravitational field. If you end your second movement on a square sharing a side with the square occupied by another gravity object (like a player), you may move a third time.
+
+Rules:
+
+Squares are considered adjacent if they share a side or a vertex.
+
+All players form a gravity field around them, in all squares adjacent to the square they're occupying.
+
+Players in squares sharing a side form double gravitational fields, affecting all squares adjacent to them, as normal, as well as those adjacent to the squares adjacent to them.
+
+Should a player find himself under the gravitational force of two other players, players in squares sharing a side are considered closer, and so the player must rotate around the one that’s closer. Should they be equally close, the player is ejected from the gravitational field and his turn ends. 
+
+To be ejected from the gravitational field, the player moves to the first square not part of the two ejecting player’s field in the direction opposite the ejecting players. If there’s no opposite direction, the player moves in the direction of his motion.
+
+Ejection can never result in elimination or leaving the board. A suitable square must be found.
+
+Winning:
+
+You arrive at one of the winning squares.
+
+Ending the game:
+
+When someone arrives at a winning square it’s the last turn. When the last player of that turn finishes his motion, turn ends.
